@@ -1,15 +1,34 @@
 # elegoo_neptune_4_plus
+
 This is my config for elegoo neptune 4 plus printer
 
+# Current Settings
+
+| Setting               | Value             |
+|-----------------------|-------------------|
+| Bed Mesh Probe Count  | 3                 |
+| Bed Mesh Size         | 6x6               |
+| Bed Fading Start      | 1 mm              |
+| Bed Fading End        | 10 mm             |
+| Bed Mesh Result       | Average           |
+| Input Shaper          | EI                |
+| Square Corner Vel.    | 8                 |
+| Idle Timeout          | 2h                |
+| Idle Timeout Bed Temp | No change on idle |
+
 # Changelog
+
 **17-10-2025**
-- Bring back  EI as default input shaper - it actually has better results on various prints (even if klipper recommend zv or mzv)
+
+- Bring back EI as default input shaper - it actually has better results on various prints (even if klipper recommend zv
+  or mzv)
 - Reduce square_corner_velocity to 8
 - Change probe matrix back to 6x6 - no sense to have more
 - Changed samples_result to average instead of median - average gives better results with 3 samples
 - Changed bed fading to 1-10mm (fade_start and fade_end)
 
 **13-10-2025**
+
 - Increase idle timeout
 - Change idle timeout logic: don't change bed temperature while timeout
 - Change probe matrix from 6x6 to 7x7
