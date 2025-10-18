@@ -5,6 +5,9 @@ This is my config for elegoo neptune 4 plus printer
 **17-10-2025**
 - Bring back  EI as default input shaper - it actually has better results on various prints (even if klipper recommend zv or mzv)
 - Reduce square_corner_velocity to 8
+- Change probe matrix back to 6x6 - no sense to have more
+- Changed samples_result to average instead of median - average gives better results with 3 samples
+- Changed bed fading to 1-10mm (fade_start and fade_end)
 
 **13-10-2025**
 - Increase idle timeout
