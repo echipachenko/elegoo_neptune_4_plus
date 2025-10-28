@@ -15,12 +15,8 @@ This is my config for elegoo neptune 4 plus printer
 | Square Corner Vel.    | 8                 |
 | Idle Timeout          | 2h                |
 | Idle Timeout Bed Temp | No change on idle |
-| Hold Current          | Removed           |
 
 # Changelog
-
-**22-10-2025**
-hold_current parameter has been removed as it's not recommended to use hold_current anymore
 
 **17-10-2025**
 
